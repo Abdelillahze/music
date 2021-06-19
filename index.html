@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- text font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize file -->
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <i onclick="my()" class="fas fa-angle-left fa-2x"></i>
+      </header>
+      <div class="info">
+        <img src="images/hq720.webp" alt="" />
+        <h2>Smoke Em</h2>
+        <p>FnF</p>
+      </div>
+      <div class="timeline">
+        <span id="timeline"></span>
+        <div id="being">0:00</div>
+        <div id="end">0:20</div>
+      </div>
+      <div class="tools">
+        <div class="container">
+          <i class="fas fa-volume-up"></i>
+          <div class="main">
+            <i class="fas fa-redo"></i>
+            <i class="fas fa-backward"></i>
+            <i onclick="pause()" class="fas fa-pause"></i>
+            <i class="fas fa-forward"></i>
+            <i class="fas fa-random"></i>
+          </div>
+          <i class="fas fa-volume-mute"></i>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
