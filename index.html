@@ -29,21 +29,27 @@
         <p>FnF</p>
       </div>
       <div class="timeline">
+        <audio
+          autoplay
+          src="music/FNF Smoke Em' Out Struggle, Full Album (Slowed Reverb).mp3"
+          type="audio/mp3"
+          id="audio"
+        ></audio>
         <span id="timeline"></span>
         <div id="being">0:00</div>
-        <div id="end">0:20</div>
+        <div id="end">9:17</div>
       </div>
       <div class="tools">
         <div class="container">
-          <i class="fas fa-volume-up"></i>
+          <i onclick="unmuted()" id="unmute" class="fas fa-volume-up"></i>
           <div class="main">
-            <i class="fas fa-redo"></i>
+            <i onclick="loop()" id="lop" class="fas fa-redo"></i>
             <i class="fas fa-backward"></i>
-            <i onclick="pause()" class="fas fa-pause"></i>
+            <i onclick="pause()" id="ahla" class="fas fa-pause"></i>
             <i class="fas fa-forward"></i>
             <i class="fas fa-random"></i>
           </div>
-          <i class="fas fa-volume-mute"></i>
+          <i onclick="muted()" id="mute" class="fas fa-volume-mute"></i>
         </div>
       </div>
     </div>
