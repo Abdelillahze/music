@@ -8,7 +8,7 @@ var y = setInterval(up, 1000);
 
 function up() {
   var q = 100 / evsec;
-  i = i + q;
+  i += q;
   timeline.style.width = `${i}%`;
   if (i == 100) {
     clearInterval(y);
