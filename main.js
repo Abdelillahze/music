@@ -6,7 +6,7 @@ var evsec = enmins * 60 + +enseconds;
 var paused = true;
 var y = setInterval(up, 1000);
 
-audio.playbackRate = 1.5;
+audio.playbackRate = 1.3;
 
 function up() {
   if (paused == true) {
