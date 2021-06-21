@@ -6,8 +6,6 @@ var evsec = enmins * 60 + +enseconds;
 var paused = true;
 var y = setInterval(up, 1000);
 
-audio.playbackRate = 1.5;
-
 function up() {
   if (paused == true) {
     var q = 100 / evsec;
